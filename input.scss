@@ -1,0 +1,27 @@
+@import 'variables.scss';
+@import '_variablesMixin';
+
+@include body($_color_primary,$_color_secundary);
+
+body{
+    color: rgba($_color_primary,0.4);
+    background: $_color_estandar;
+    header{
+        background:$_color_primary;
+        height: 10%;
+    }
+    section{
+        background: blue;
+        height: 85%;
+    }
+    footer{
+        background:$_color_secundary;
+        height: 5%;
+    }
+    #mapid { height: 180px; }
+
+  
+}
+
+
+ 

@@ -1,0 +1,27 @@
+<HTML>
+    <HEAD>
+    <TITLE>Frontier</TITLE>
+    <link rel="styleshett" href="/input.HASH_REF_4731fcb181a60e87396723a16765ac5b.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+    
+    </HEAD>
+    <BODY>
+    <header class="light">
+        <a>
+            gksdlfgjksdfj
+        </a>
+    </header>
+    <section class="dark">
+        <div id="mapid"></div>
+    </section>
+    <footer>
+        <a>
+            gksdlfgjksdfj
+        </a>    
+    </footer>
+    <script src="/index.HASH_REF_f21e8ecf83c5edc190ba1d063e9313ca.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    </BODY>
+
+
+</HTML>

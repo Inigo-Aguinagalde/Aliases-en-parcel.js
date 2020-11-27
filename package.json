@@ -1,0 +1,29 @@
+{
+  "name": "Frontier",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build-yarn": "yarn css && yarn js",
+    "build": "cross-env NODE_ENV=production parcel build index.html --dist-dir dist --no-source-maps",
+    "build-prod": "cross-env NODE_ENV=production parcel build index_dev.html --dist-dir dist --no-source-maps",
+    "prebuild": "rm -fr .parcel-cache dist",
+    "prebuild-yarn": "rm -rv dist",
+    "prestart": "rm -fr .parcel-cache dist",
+    "start": "cross-env NODE_ENV=development parcel index.html --dist-dir dist --no-autoinstall --no-source-maps",
+    "css": "sass input.scss dist/style.css",
+    "js": "babel . --ignore node_modules --out-dir dist"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "parcel": "^2.0.0-nightly.447",
+    "sass": "^1.29.0"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  },
+  "alias": {
+    "leaflet": {
+      "global": "L"
+    }
+  }
+}

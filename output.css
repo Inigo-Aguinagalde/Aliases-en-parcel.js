@@ -1,0 +1,27 @@
+body *.dark {
+  background: black;
+  color: white;
+}
+body *.light {
+  background: white;
+  color: black;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.4);
+  background: grey;
+}
+body header {
+  background: black;
+  height: 10%;
+}
+body section {
+  background: blue;
+  height: 85%;
+}
+body footer {
+  background: white;
+  height: 5%;
+}
+
+/*# sourceMappingURL=output.css.map */
